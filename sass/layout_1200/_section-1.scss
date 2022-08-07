@@ -1,0 +1,9 @@
+.architectural .grid-photo {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.architectural .grid-photo__item:nth-child(2),
+.architectural .grid-photo__item:nth-child(3),
+.architectural .grid-photo__item:nth-child(6) {
+    grid-column: span 2;
+}

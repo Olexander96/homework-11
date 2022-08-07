@@ -1,0 +1,46 @@
+.fashion .grid-photo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, 370px);
+    gap: 30px;
+}
+
+.fashion .grid-photo__item:nth-child(1) {
+    background-image: url('../img/photoes/fashion-photo1.jpg');
+}
+
+.fashion .grid-photo__item:nth-child(2) {
+    background-image: url('../img/photoes/fashion-photo2.jpg');
+}
+
+.fashion .grid-photo__item:nth-child(3) {
+    background-image: url('../img/photoes/fashion-photo3.jpg');
+}
+
+.fashion .grid-photo__item:nth-child(4) {
+    background-image: url('../img/photoes/fashion-photo4.jpg');
+}
+
+.fashion .grid-photo__item:nth-child(5) {
+    background-image: url('../img/photoes/fashion-photo5.jpg');
+}
+
+.fashion .grid-photo__item:nth-child(6) {
+    background-image: url('../img/photoes/fashion-photo6.jpg');
+}
+
+.fashion .grid-photo__item:nth-child(7) {
+    background-image: url('../img/photoes/fashion-photo7.jpg');
+}
+
+.fashion .grid-photo__item:nth-child(8) {
+    background-image: url('../img/photoes/fashion-photo8.jpg');
+}
+
+.fashion .grid-photo__item:nth-child(9) {
+    background-image: url('../img/photoes/fashion-photo9.jpg');
+}
+
+.fashion .grid-photo__item:nth-child(10) {
+    background-image: url('../img/photoes/fashion-photo10.jpg');
+}

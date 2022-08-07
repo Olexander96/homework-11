@@ -1,0 +1,38 @@
+@import '../base/variables';
+@import '../base/fonts';
+
+
+.architectural .grid-photo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 370px);
+    gap: 30px;
+}
+
+.architectural .grid-photo__item:nth-child(1) {
+    background-image: url('../img/photoes/architectural-photo1.jpg');
+}
+
+.architectural .grid-photo__item:nth-child(2) {
+    background-image: url('../img/photoes/architectural-photo2.jpg');
+}
+
+.architectural .grid-photo__item:nth-child(3) {
+    background-image: url('../img/photoes/architectural-photo3.jpg');
+}
+
+.architectural .grid-photo__item:nth-child(4) {
+    background-image: url('../img/photoes/architectural-photo4.jpg');
+}
+
+.architectural .grid-photo__item:nth-child(5) {
+    background-image: url('../img/photoes/architectural-photo5.jpg');
+}
+
+.architectural .grid-photo__item:nth-child(6) {
+    background-image: url('../img/photoes/architectural-photo6.jpg');
+}
+
+
+
+

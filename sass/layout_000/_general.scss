@@ -1,0 +1,108 @@
+@import 'section-1';
+@import 'section-2';
+@import 'section-3';
+
+* {
+    font-size: 16px;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+main {
+    padding: 60px 0;
+}
+
+main section:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.container h2 {
+    font-family: $delius;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: $black;
+    margin-bottom: 40px;
+}
+
+.grid-photo__item {
+    position: relative;
+    grid-column: span 1;
+    grid-row: span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    background-image: url('../img/photoes/placeholder-img.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.grid-photo__item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: $photoGradient;
+}
+
+.grid-photo__item:hover::after {
+    background-image: $photoGradientHover;
+}
+
+.grid-photo__item-top, .grid-photo__item-bottom {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid-photo__item-top button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $whiteSilver;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.grid-photo__item-top button:hover {
+    background: $white;
+}
+
+.grid-photo__item-top button .icon {
+    width: 20px;
+    height: 20px;
+}
+
+.grid-photo__item-bottom {
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: $whiteAbsolute;
+}
+
+.grid-photo__item-bottom span {
+    font-weight: 400;
+    color: $white;
+}
