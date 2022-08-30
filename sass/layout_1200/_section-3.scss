@@ -1,0 +1,15 @@
+.fashion .grid-photo {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.fashion .grid-photo__item:nth-child(2),
+.fashion .grid-photo__item:nth-child(5),
+.fashion .grid-photo__item:nth-child(6) {
+    grid-row: span 2;
+}
+
+.fashion .grid-photo__item:nth-child(8),
+.fashion .grid-photo__item:nth-child(9) {
+    grid-column: span 2;
+}
+

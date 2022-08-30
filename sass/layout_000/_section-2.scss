@@ -1,0 +1,30 @@
+.life .grid-photo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 370px);
+    gap: 30px;
+}
+
+.life .grid-photo__item:nth-child(1) {
+    background-image: url('../img/photoes/life-photo1.jpg');
+}
+
+.life .grid-photo__item:nth-child(2) {
+    background-image: url('../img/photoes/life-photo2.jpg');
+}
+
+.life .grid-photo__item:nth-child(3) {
+    background-image: url('../img/photoes/life-photo3.jpg');
+}
+
+.life .grid-photo__item:nth-child(4) {
+    background-image: url('../img/photoes/life-photo4.jpg');
+}
+
+.life .grid-photo__item:nth-child(5) {
+    background-image: url('../img/photoes/life-photo5.jpg');
+}
+
+.life .grid-photo__item:nth-child(6) {
+    background-image: url('../img/photoes/life-photo6.jpg');
+}
